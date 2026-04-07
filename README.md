@@ -16,19 +16,19 @@ Four writing and content skills for Claude Code, Cursor, Codex, and OpenCode.
 ### Claude Code
 
 ```
-Fetch and follow instructions from https://raw.githubusercontent.com/Lauvanya28/ArticleClaudeSkills/master/.claude-plugin/INSTALL.md
+Fetch and follow instructions from https://raw.githubusercontent.com/Lauvanya28/article-writing-skills/master/.claude-plugin/INSTALL.md
 ```
 
 ### Codex
 
 ```
-Fetch and follow instructions from https://raw.githubusercontent.com/Lauvanya28/ArticleClaudeSkills/master/.codex/INSTALL.md
+Fetch and follow instructions from https://raw.githubusercontent.com/Lauvanya28/article-writing-skills/master/.codex/INSTALL.md
 ```
 
 ### OpenCode
 
 ```
-Fetch and follow instructions from https://raw.githubusercontent.com/Lauvanya28/ArticleClaudeSkills/master/.opencode/INSTALL.md
+Fetch and follow instructions from https://raw.githubusercontent.com/Lauvanya28/article-writing-skills/master/.opencode/INSTALL.md
 ```
 
 ### Cursor
