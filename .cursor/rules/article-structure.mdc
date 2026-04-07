@@ -1,0 +1,75 @@
+---
+description: Structure and outline any article, blog post, or long-form piece. Use when the user asks to write an article, draft a post, outline a piece, or structure their writing.
+alwaysApply: false
+---
+
+---
+name: article-structure
+description: Apply a structured framework when writing, drafting, outlining, or reviewing any article, blog post, or long-form written piece. Use this skill whenever the user asks to write an article, draft a post, create content, or structure their writing. Trigger even if the user says "write a blog post", "help me write about X", "draft an article", or "outline my piece" — always follow this structure unless explicitly told otherwise.
+---
+
+# Article Structure Skill
+
+Use this structure for every article, blog post, or long-form piece. Follow each section in order.
+
+---
+
+## 1. Title
+- Captures the essence of the article
+- Start with a rough draft; revisit and refine as the core idea becomes clearer during writing
+- Clear and concise — **under 60 characters**
+
+## 2. Description
+- A single paragraph overview of the article
+- Exactly **150–160 characters** long
+- Think of it as a meta description: informative, punchy, and self-contained
+
+## 3. Cover Image
+- Created after the article is complete
+- Choose any one approach, or combine approaches:
+  - A metaphor or parallel drawn from the article's theme
+  - Reference to a game, movie, or series that mirrors the idea
+  - Art or illustration representing the core concept
+  - Run the article concept through an AI tool for ideas based on popular media
+  - Include logos of companies relevant to the topic
+  - Look for illustrations that capture the central idea
+
+## 4. Introduction
+Structure the introduction to do all of the following:
+1. **Open with a hook** — a simple surprising point, a statistic, a question, or a short past experience
+2. **Provide context** — brief overview of the topic and why it matters or is relevant now
+3. **State the focus** — one clear sentence outlining what this article is primarily about
+4. **Set expectations** — briefly tell the reader what the article will cover
+
+## 5. Main Content
+The core of the article. Structure it as follows:
+- Divide into **sections and subsections** for easy reading
+- Each section covers **one distinct aspect** of the topic
+- Use **clear headings and subheadings** throughout
+- Integrate content types as needed to enhance understanding:
+  - **Text** for detailed explanations
+  - **Bulleted or numbered lists** for key points
+  - **Code samples** where applicable
+  - **Images** to visualize concepts
+  - **Tables** to compare features or options
+  - **Graphs** to represent data
+
+## 6. Conclusion
+End the article with three things:
+1. **Recap** — summarise the main points covered
+2. **Significance** — reinforce why the topic matters
+3. **Call to action** — give the reader something to do, think about, or explore next
+
+## 7. References
+- List all sources cited in the article
+- Include additional resources for further reading
+
+---
+
+## Writing Principles
+Apply these throughout:
+- **One core idea per article** — everything supports the thesis
+- **Specificity over generality** — use real names, numbers, and examples
+- **Acknowledge counterarguments** — it builds credibility
+- **Rhythm matters** — short sentences when the stakes are high
+- **Cut the warm-up** — the real article often starts at paragraph two; trim what came before

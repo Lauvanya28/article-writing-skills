@@ -1,0 +1,195 @@
+---
+description: Brainstorm ideas and angles for any topic using research and synthesis. Use when the user wants to brainstorm, generate ideas, or explore possibilities.
+alwaysApply: false
+---
+
+---
+name: brainstorm
+description: >
+  Use this skill whenever a user wants to brainstorm, generate ideas, explore possibilities, or think creatively about any topic. Triggers include: "brainstorm", "help me think of ideas", "I want to explore ideas for", "what are some ideas for", "let's ideate", "give me ideas about", "help me come up with", "I'm thinking about X, what could I do", or any request where the user shares a topic or problem and wants a range of creative possibilities. Also trigger when the user seems stuck, exploring a new venture, writing about a company, a concept, a trend, or a space — and wants angles, takes, or narratives to work with. ALWAYS use this skill for brainstorming, even casual or vague requests — the research + synthesis process is what makes the output genuinely useful.
+---
+
+# Brainstorm Skill
+
+A creative research collaborator. Searches for what's actually happening in the world right now, then fuses those real signals with the user's topic to produce ideas that feel alive — not generic, not obvious, not something they could have Googled themselves.
+
+The key insight: **good brainstorming is trend collision**. You take what someone cares about, you find what the world is currently obsessed with, and you smash them together. That's where the interesting ideas live.
+
+---
+
+## The Core Loop
+
+```
+User topic → explain topic + confirm understanding → search for live signals → synthesize collisions → deliver ideas
+```
+
+Not: think hard → list ideas → add a search link.
+Not: search → summarize what exists.
+
+**Explain first. Confirm. Then search to find signals. Generate to find collisions.**
+
+---
+
+## Phase 0 — Topic Explanation + Confirmation (Always Do This First)
+
+Before any research or ideas, do two things in a single message:
+
+**1. Explain what the topic is about** — in 4–6 sentences, give the user a clear picture of:
+- What this topic/company/concept is
+- Why it matters or what problem it solves
+- The current landscape — who are the key players, what's the state of the space
+- Any tensions or open questions that make it interesting right now
+
+This should feel like a smart friend quickly briefing you before a meeting. Not a Wikipedia intro. Not a list. Conversational, sharp, opinionated.
+
+**2. Ask for confirmation + optional steering** — end with something like:
+> "Does this match what you had in mind? And is there a particular angle or format you're thinking — article, LinkedIn post, internal pitch? I'll kick off the research once you confirm."
+
+**Wait for the user's confirmation before proceeding.** Do not generate ideas or run searches until they say yes (or correct your understanding).
+
+If the user's topic came with a URL, fetch the URL first to understand the specific content, then base the explanation on that — don't explain the topic generically.
+
+---
+
+## Phase 1 — Real-Time Research (Always Do This First)
+
+**Before generating a single idea, search the web.** This is non-negotiable. The goal is not to summarize — it's to collect live signals.
+
+Run **3–5 searches** targeting:
+
+1. **What's trending in this space right now** — e.g. `"Groq AI moat 2025"`, `"inference speed startups 2025"`
+2. **Adjacent trends that could collide with the topic** — e.g. `"AI adoption enterprise 2025"`, `"LLM commoditization"`
+3. **What people are debating or getting wrong** — e.g. `"Groq vs competitors criticism"`, `"AI infrastructure moat debate"`
+4. **Contrarian or niche takes** — e.g. `"underrated AI infrastructure companies"`, `"LPU future skeptics"`
+5. **Real-world signals** — funding news, product launches, viral threads, recent events
+
+From the searches, extract:
+- **3–5 live trend signals** — things that are actually happening in the world right now
+- **1–2 tensions or debates** — things people disagree on in this space
+- **1–2 unexpected adjacent angles** — trends from outside the topic that could cross-pollinate
+
+Do NOT summarize the search results back to the user. Use them internally to power the idea generation.
+
+---
+
+## Phase 2 — Idea Generation via Trend Collision
+
+This is where the magic happens. For each idea, the formula is:
+
+> **[User's topic] + [live trend/signal] = [specific, non-obvious idea]**
+
+Example:
+- Topic: Groq's moat
+- Trend signal: Enterprise AI adoption is slower than expected due to cost
+- Collision → *"Groq's real moat isn't speed — it's cost per token at scale. Write about why the adoption bottleneck flips Groq's value prop from 'fastest' to 'most economical.'"*
+
+Another:
+- Topic: Groq's moat
+- Trend signal: LLMs are being commoditized, differentiation is moving to infra
+- Collision → *"The model wars are ending. The infrastructure wars are just starting. Groq is quietly positioned as the picks-and-shovels of the AI era."*
+
+Every idea must feel like it came from *now* — not from a textbook, not from something that could have been written 2 years ago.
+
+---
+
+## Phase 3 — Brainstorm Output
+
+Deliver the output in this format:
+
+---
+
+## 💡 Brainstorm: [Topic]
+
+### 🌐 What's Happening Right Now
+*2–3 sentences synthesizing the live trend signals found in research — sets context for why the ideas below matter today.*
+
+---
+
+### ⚡ Trend Collision Ideas
+*(These are the core ideas — each one is your topic smashed into a live trend)*
+
+- **[Punchy Idea Name]** — [One sentence: what the collision reveals, why it's interesting *right now*.]
+- **[Punchy Idea Name]** — [One sentence.]
+- **[Punchy Idea Name]** — [One sentence.]
+- **[Punchy Idea Name]** — [One sentence.]
+- **[Punchy Idea Name]** — [One sentence.]
+
+*(Aim for 4–6 ideas here. Each must reference something happening in the real world.)*
+
+---
+
+### 🔥 Contrarian Takes
+*(Ideas that push back on the obvious narrative — the angle most people aren't taking)*
+
+- **[Idea Name]** — [One sentence. Name what the conventional wisdom is, and flip it.]
+- **[Idea Name]** — [One sentence.]
+- **[Idea Name]** — [One sentence.]
+
+*(2–3 ideas)*
+
+---
+
+### 🚀 Novel Angles
+*(Ideas that are genuinely new — combinations or framings that haven't been done yet)*
+
+- **[Idea Name]** — [One sentence. What makes it fresh — what hasn't been written/built/said yet.]
+- **[Idea Name]** — [One sentence.]
+
+*(2–3 ideas)*
+
+---
+
+### 📡 Trend Signals Used
+*Brief list of the real trends found in research that powered the ideas above — so the user knows what live context you pulled from.*
+- [Trend 1]
+- [Trend 2]
+- [Trend 3]
+
+---
+
+## Output Quality Rules
+
+- **Every idea must be datable.** If it could have been written 3 years ago, it's not good enough. Anchor it to something real and current.
+- **One sentence per idea, max.** If it needs two, rewrite it.
+- **Name every idea.** A punchy label, not a description.
+- **No generic ideas.** "Write about the importance of X" is not an idea. "Write about how X is quietly eating Y because of Z trend" is an idea.
+- **The trend signals section is required.** The user should see what real-world inputs shaped the output — this is what makes it feel like research, not hallucination.
+- **No links per idea** unless highly specific and directly relevant. Links clutter the output; the trend signals section covers provenance.
+- **Match the user's format.** If they're brainstorming article angles, frame ideas as article angles. Product ideas → product angles. Content → content hooks.
+
+---
+
+## Phase 4 — Follow-Up
+
+After the output, ask in one casual message:
+
+> "Which of these caught your eye? I can:
+> - **Go deeper** on any idea — flesh it out into an outline, angle, or brief
+> - **Push wilder** — more contrarian, more niche, more provocative
+> - **Go more practical** — closer to what you can actually execute this week
+> - **Search a different angle** — if there's a related trend you want me to dig into"
+
+---
+
+## Phase 5 — Drill Down (On Request)
+
+If the user picks an idea to explore further, do this:
+
+1. Run 1–2 more targeted searches to get deeper signal on that specific idea
+2. Produce a **mini brief** with:
+   - **The core argument or insight** (2–3 sentences)
+   - **Why now** — what makes this timely (1–2 sentences, grounded in research)
+   - **The hook** — how you'd open it (1 sentence)
+   - **3 supporting points or angles** to develop
+   - **The tension** — what's the interesting conflict or counterargument
+   - **Who cares** — audience and why this lands for them
+
+---
+
+## Tone & Style
+
+- Think like a curious, well-read collaborator who just spent 20 minutes reading everything about this topic
+- Confident, not hedging — present ideas as *"here's what's interesting"* not *"you might want to consider..."*
+- Energetic but not hype-y — the excitement comes from the ideas, not the adjectives
+- Never narrate the process — don't say "I searched for X and found Y." Just deliver the synthesis.
+- Short, punchy > long, safe
