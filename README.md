@@ -6,7 +6,7 @@ Four writing and content skills for Claude Code, Cursor, Codex, and OpenCode.
 |-------|-------------|
 | `article-content` | Write article body content, blog posts, long-form guides |
 | `article-structure` | Structure any article: title, intro, body, conclusion |
-| `writing-style-personal-voice` | Apply a plain, clear personal writing voice (Replace with your writing style/voice |
+| `writing-style-personal-voice` | Apply a plain, clear personal writing voice (Replace with your writing style/voice) |
 | `brainstorm` | Brainstorm ideas and angles using research and synthesis |
 
 ---
